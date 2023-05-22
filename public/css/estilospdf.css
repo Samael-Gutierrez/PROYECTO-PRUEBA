@@ -1,0 +1,101 @@
+/* Colores */
+:root {
+    --primary: #032451;
+    --secondary: #b84600;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#header{
+    width: 100%;
+    height: 35px;
+    padding: 2rem;
+    border-bottom: 5px solid #032451;
+}
+
+#header h1{
+    display: inline;
+    font-size: 2rem;
+    text-align: center;
+    margin-right: 6rem;
+    margin-left: 6rem;
+    padding: 1rem 3rem;
+}
+
+#logo-upmp{
+    width: 50px;
+}
+
+#logo-sep{
+    width: 100px;
+}
+
+h2{
+    font-size: 1.6rem;
+    margin: 2rem auto;
+    text-align: center;
+    font-weight: bold;
+}
+
+h2 span{
+    text-transform: uppercase;
+    color: #032451;
+}
+
+table{
+    width: 80%;
+    margin: 2rem auto;
+    border-top: 2px solid #b84600;
+}
+
+table thead{
+    background-color: #032451;
+    text-align: center;
+    color: white;
+    font-size: 1rem;
+}
+
+table thead th{
+    padding: 0.5rem;
+}
+
+table tbody{
+    font-size: 1.2rem;
+}
+
+table tbody tr td:nth-child(2),
+table tbody tr td:nth-child(3){
+    text-align: center;
+}
+
+table tbody tr td:nth-child(3){
+    color: #b84600;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    padding: 2rem;
+    border-top: 5px solid #b84600;
+}
+
+footer img:nth-child(1){
+    display: inline;
+    width: 150px;
+}
+
+footer img:nth-child(2){
+    display: inline;
+    width: 50px;
+    margin-left: 550px;
+}
+
